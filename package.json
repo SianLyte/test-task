@@ -2,7 +2,7 @@
   "name": "idea-platform-test",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://sianlyte.github.io/test-task.github.io/",
+  "homepage": "https://sianlyte.github.io/test-task.github.io",
   "dependencies": {
     "@reduxjs/toolkit": "^2.5.0",
     "@types/jest": "^29.5.14",
