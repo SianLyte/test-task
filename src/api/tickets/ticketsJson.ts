@@ -1,0 +1,53 @@
+export const ticketsJson = JSON.stringify([
+  {
+    "id": 1,
+    "departureCity": "Владивосток",
+    "departureCountry": "Россия",
+    "departureAirportCode": "VVO",
+    "departureCityGMT": 10,
+    "arrivalCity": "Тель-Авив",
+    "arrivalCountry": "Израиль",
+    "arrivalAirportCode": "TLV",
+    "arrivalCityGMT": 2,
+    "departureTime": "2018-10-09T09:25:00",
+    "arrivalTime": "2018-10-10T11:45:00",
+    "transfers": 1,
+    "price": 21032,
+    "currency": "RUB",
+    "company": "Turkish Airlines"
+  },
+  {
+    "id": 2,
+    "departureCity": "Владивосток",
+    "departureCountry": "Россия",
+    "departureAirportCode": "VVO",
+    "departureCityGMT": 10,
+    "arrivalCity": "Тель-Авив",
+    "arrivalCountry": "Израиль",
+    "arrivalAirportCode": "TLV",
+    "arrivalCityGMT": 2,
+    "departureTime": "2018-10-09T10:35:00",
+    "arrivalTime": "2018-10-10T12:34:00",
+    "transfers": 2,
+    "price": 22245,
+    "currency": "RUB",
+    "company": "Turkish Airlines"
+  },
+  {
+    "id": 3,
+    "departureCity": "Владивосток",
+    "departureCountry": "Россия",
+    "departureAirportCode": "VVO",
+    "departureCityGMT": 10,
+    "arrivalCity": "Тель-Авив",
+    "arrivalCountry": "Израиль",
+    "arrivalAirportCode": "TLV",
+    "arrivalCityGMT": 2,
+    "departureTime": "2018-10-09T10:35:00",
+    "arrivalTime": "2018-10-10T12:34:00",
+    "transfers": 5,
+    "price": 22245,
+    "currency": "RUB",
+    "company": "Turkish Airlines"
+  }
+]); 

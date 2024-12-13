@@ -1,0 +1,14 @@
+.ticketList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 655px;
+
+}
+
+.centerText {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

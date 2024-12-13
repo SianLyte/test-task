@@ -1,0 +1,98 @@
+.ticketCardContainer {
+  display: flex;
+  border: 2px solid #eaf1f5;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 100%;
+  &:hover {
+    box-shadow: 1px 15px 30px #d4e0e8;
+    transition: 0.3s all;
+  }
+}
+
+.LogoButtonContainer {
+  border-right: 1px solid #eaf1f5;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+
+}
+
+.MainInfoContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;;
+}
+
+.TimeContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.CityDateContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.time {
+  font-size: 40px;
+}
+
+.date {
+  color: #aab1b3;
+}
+
+.transfer {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 5px;
+  color: gray;
+}
+
+.transferContainer {
+  margin: 0 30px;
+}
+
+.plane {
+  width: 15px;
+  height: 15px;
+  transform: rotate(90deg);
+  fill: lightgray;
+}
+
+.stick {
+  
+  height: 2px;
+  width: 140px;
+  background-color: lightgray;
+}
+
+.stickContainer {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  background-color: #fc6c04;
+  color: white;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  line-height: 20px;
+  box-shadow: 1px 2px 1px #d75311;
+  min-width: 155px;
+
+  &:hover {
+    background-color: #ff8124;
+    transition: 0.3s all;
+  }
+}
+
+.logo {
+  width: 80%;
+  height: 40px;
+}
