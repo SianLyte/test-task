@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.4eaeb4d3.css",
-    "main.js": "/static/js/main.13447818.js",
-    "static/css/38.5ea52d5d.chunk.css": "/static/css/38.5ea52d5d.chunk.css",
-    "static/js/38.f5bd21ae.chunk.js": "/static/js/38.f5bd21ae.chunk.js",
-    "static/js/664.79f0fcd9.chunk.js": "/static/js/664.79f0fcd9.chunk.js",
-    "static/media/logo.png": "/static/media/logo.97005fdec964fd151548.png",
-    "static/media/axios.cjs": "/static/media/axios.f50781e842ef05922fb7.cjs",
-    "static/media/airplane.svg": "/static/media/airplane.cf3db3c29611d9156e74ccfb6bca6253.svg",
-    "index.html": "/index.html",
-    "main.4eaeb4d3.css.map": "/static/css/main.4eaeb4d3.css.map",
-    "main.13447818.js.map": "/static/js/main.13447818.js.map",
-    "38.5ea52d5d.chunk.css.map": "/static/css/38.5ea52d5d.chunk.css.map",
-    "38.f5bd21ae.chunk.js.map": "/static/js/38.f5bd21ae.chunk.js.map",
-    "664.79f0fcd9.chunk.js.map": "/static/js/664.79f0fcd9.chunk.js.map"
+    "main.css": "/test-task.github.io/static/css/main.4eaeb4d3.css",
+    "main.js": "/test-task.github.io/static/js/main.0f5a011d.js",
+    "static/css/38.5ea52d5d.chunk.css": "/test-task.github.io/static/css/38.5ea52d5d.chunk.css",
+    "static/js/38.f5bd21ae.chunk.js": "/test-task.github.io/static/js/38.f5bd21ae.chunk.js",
+    "static/js/664.79f0fcd9.chunk.js": "/test-task.github.io/static/js/664.79f0fcd9.chunk.js",
+    "static/media/logo.png": "/test-task.github.io/static/media/logo.97005fdec964fd151548.png",
+    "static/media/axios.cjs": "/test-task.github.io/static/media/axios.f50781e842ef05922fb7.cjs",
+    "static/media/airplane.svg": "/test-task.github.io/static/media/airplane.cf3db3c29611d9156e74ccfb6bca6253.svg",
+    "index.html": "/test-task.github.io/index.html",
+    "main.4eaeb4d3.css.map": "/test-task.github.io/static/css/main.4eaeb4d3.css.map",
+    "main.0f5a011d.js.map": "/test-task.github.io/static/js/main.0f5a011d.js.map",
+    "38.5ea52d5d.chunk.css.map": "/test-task.github.io/static/css/38.5ea52d5d.chunk.css.map",
+    "38.f5bd21ae.chunk.js.map": "/test-task.github.io/static/js/38.f5bd21ae.chunk.js.map",
+    "664.79f0fcd9.chunk.js.map": "/test-task.github.io/static/js/664.79f0fcd9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4eaeb4d3.css",
-    "static/js/main.13447818.js"
+    "static/js/main.0f5a011d.js"
   ]
 }
