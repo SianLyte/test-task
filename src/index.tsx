@@ -9,7 +9,7 @@ const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.REACT_APP_PUBLIC_URL}>
     <ErrorBoundary>
       <Provider store={store}>
         <App />
