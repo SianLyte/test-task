@@ -3,7 +3,6 @@ import { ICurrencyResponse } from "./currency.type";
 
 
 export const getCurrenciesRequest = async () => {
-  console.log(process.env.REACT_APP_FREE_CURRENCY_API_KEY);
   const freecurrencyapi = new FreeCurrencyApi(process.env.REACT_APP_FREE_CURRENCY_API_KEY);
 
   const currencies:ICurrencyResponse = await freecurrencyapi.latest({
