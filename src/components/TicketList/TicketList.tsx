@@ -5,14 +5,14 @@ import { useAppDispatch, useAppSelector } from '../../store/store';
 import cls from "./TicketList.module.scss";
 import TicketListSkeleton from './skeleton/TicketListSkeleton';
 
-export function TicketList() {
+const TicketList = () => {
   const dispatch = useAppDispatch();
   const { tickets, filters, status: ticketsStatus, showAll } = useAppSelector((state) => state.tickets);
   const currencyStatus = useAppSelector(state => state.currency.status);
 
   useEffect(() => {
     dispatch(fetchTickets());
-      // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
 
@@ -20,26 +20,21 @@ export function TicketList() {
     filters.includes(ticket.transfers)
   );
 
-  const renderTicketList = () => {
-    if (ticketsStatus === 'loading' || currencyStatus === 'loading') {
-      return <TicketListSkeleton />;
-    }
+  let content;
 
-    if (ticketsStatus === 'failed') {
-      return <div className={cls.centerText}>Не получилось загрузить билеты. Попробуйте еще раз.</div>;
-    }
-
-    if (filteredTickets.length === 0) {
-      return <div className={cls.centerText}>Билеты не найдены</div>;
-    }
-
-    return filteredTickets.map((ticket) => (
+  if (ticketsStatus === 'loading' || currencyStatus === 'loading') {
+    content = <TicketListSkeleton />;
+  } else if (ticketsStatus === 'failed') {
+    content = <div className={cls.centerText}>Не получилось загрузить билеты. Попробуйте еще раз.</div>;
+  } else if (filteredTickets.length === 0) {
+    content = <div className={cls.centerText}>Билеты не найдены</div>;
+  } else {
+    content = filteredTickets.map((ticket) => (
       <TicketCard key={ticket.id} ticket={ticket} />
     ));
-  };
+  }
 
-  return (
-    <div className={cls.ticketList}>
-      {renderTicketList()}
-    </div>)
+  return <div className={cls.ticketList}>{content}</div>;
 }
+
+export default TicketList;
